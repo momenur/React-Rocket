@@ -1,0 +1,14 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 4px;
+}
+.active{
+    background: blue;
+}
+.page-num{
+    padding: 5px;
+    border: 2px solid #CED4DA;
+}
