@@ -6,7 +6,7 @@ import { RocketsContext } from "../providers/RocketsProviders";
 
 
 const Container = () => {
-    const {rockets, loading} = useContext(RocketsContext)
+    const { rockets, loading } = useContext(RocketsContext)
 
     // Pagination 
     const itemsPerPage = 9;
@@ -18,8 +18,10 @@ const Container = () => {
         const newOffset = (event.selected * itemsPerPage) % rockets.length;
         setItemOffset(newOffset);
     }
-    if(loading){
-        return<p>Loading</p>
+    if (loading) {
+        return <div className="flex h-[500px] justify-center items-center">
+            <p className="text-7xl">Loading...</p>
+        </div>
     }
 
     return (
