@@ -1,5 +1,5 @@
 # React Rocket
-Live Link: https://6535219b34f656670106dca1--genuine-medovik-0e45fe.netlify.app
+Live Link: https://65352d1e8b4dfd6fc151f579--grand-narwhal-c9c33d.netlify.app
 
 
 # Dependencies
